@@ -1,0 +1,87 @@
+/* Colour Theme used: https://coolors.co/2a2b2a-706c61-a2d729-fffaff-f8f4e3 */
+
+
+@media screen and (max-width: 1208px) {
+	#columns {
+		float: none;
+	}
+
+    #column_1 {
+    	position: relative;
+    	display: block;
+		width: 70%;
+		float: none;
+	}
+
+	#column_2 {
+		display: block;
+		width: 70%;
+		margin-left: 17%;
+	}
+
+	#column_3 {
+		display: block;
+		width: 70%;
+		margin-left: 17%;
+	}
+
+	.contact_panel {
+		text-align: center;
+	}
+	
+	#id_footprints {
+		text-align: center;
+	}
+
+	.panel h2 {
+		text-align: center;
+	}
+}
+
+html {
+	background: #fffaff;
+	min-width: 320px;
+}
+
+body {
+	background: #fffaff;
+}
+
+#columns{
+	position: static;
+	margin-top: 172px;
+	width: 100%;
+}
+
+#column_1 {
+	margin-left: 17%;
+}
+
+#column_2 {
+	position: relative;
+}
+
+#column_3 {
+	position: relative;
+}
+
+.panel {
+	border: dashed 1px #a2d729;
+	background: #fffaff;
+	color: #2a2b2a
+}
+
+.panel h2 {
+	background: #fffaff;
+	color: #a2d729;
+	font-style: italic;
+}
+
+a {
+	color: #2a2b2a;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #a2d729;
+}
