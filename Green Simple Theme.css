@@ -28,6 +28,11 @@
 	.contact_panel {
 		text-align: center;
 	}
+
+	#id_mycar {
+		margin: 0 auto;
+		text-align: center;
+	}
 	
 	#id_footprints {
 		text-align: center;
